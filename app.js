@@ -1,6 +1,3 @@
-var Syncd   = require('liv/Dyncd');
+var Syncd   = require('liv/Syncd');
 
 var syncd = new Syncd();
-
-
-
