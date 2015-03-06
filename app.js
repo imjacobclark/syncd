@@ -1,3 +1,3 @@
-var Syncd   = require('liv/Syncd');
+var Syncd   = require('lib/Syncd');
 
 var syncd = new Syncd();
