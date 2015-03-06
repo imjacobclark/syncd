@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "q": "^1.2.0",
+    "scp": "0.0.3",
+    "watch": "^0.14.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+}
