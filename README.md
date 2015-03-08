@@ -1,7 +1,7 @@
 # syncd
 syncd: Synchronize directories across clusters leveraging etcd
 
-syncd is available on the [Docker Hub Registry](https://registry.hub.docker.com/u/imjacobclark/syncd/) as a prebuilt container
+syncd is available on the [Docker Hub Registry](https://registry.hub.docker.com/u/imjacobclark/syncd/) as a prebuilt container.
 
 [syncd](http://github.com/imjacobclark/syncd) is a simple Node.js app which watches a particular folder you wish to sync cross cluster for change events. When a directory change is detected syncd contacts the etcd HTTP API for details of the nodes your service is running on, syncd expects etcd to be aware of your currently running instances holding a key of the service name and a value of the IP and port. Once syncd has this information it simply transferred static content via [scp](http://en.wikipedia.org/wiki/Secure_copy) to all running nodes.
 
