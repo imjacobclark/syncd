@@ -14,6 +14,7 @@ docker run -d \
     -e "ETCD_SERVICE_KEY=<service_key>" \
     -e "DIRECTORY_TO_SYNC=<fully_qualified_path>" \
     -e "CURRENT_HOST_IP=<public_ip>" \
+    -v fully_qualified_path:fully_qualified_path \
     imjacobclark/syncd
 ```
 
